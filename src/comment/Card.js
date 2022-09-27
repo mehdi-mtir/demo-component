@@ -6,6 +6,7 @@ const Card = (props)=>{
     <div className="card">
       <div className="content">
         {props.children}
+        <p>Etat : {props.etat}</p>
       </div>
       <div className="extra content">
         <div className="ui two buttons">
